@@ -1,0 +1,52 @@
+.companies {
+    display: flex;
+    flex-direction: column; /* Stack heading and company list vertically */
+    background-color: #222121;
+    align-items: center;
+    padding: 20px;
+    margin-top: 2px;
+    text-align: center;
+}
+
+.h-company {
+    margin-bottom: 20px; /* Add some space between heading and company list */
+    color: white;
+}
+
+.company-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.company {
+    margin: 20px; /* Add space around each company item */
+    color: white;
+    display: flex;
+    flex-direction: row; /* Display image and text side by side */
+    align-items: center; /* Vertically center items */
+    text-align: center;
+    justify-content: center; /* Horizontally center items */
+}
+
+.c-img {
+    margin-right: 10px; /* Add some space between the image and the text */
+    width: auto;
+    height: 50px;
+}
+
+@media (max-width: 768px) {
+    .h-company {
+        margin-bottom: 20px;
+        color: white;
+        font-size: 5vw;
+    }
+
+    .c-img {
+        margin-right: 10px; /* Add some space between the image and the text */
+        width: auto;
+        height: 30px;
+    }
+
+}

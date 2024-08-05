@@ -1,0 +1,93 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#222121;
+    max-width: 100%;
+    padding: 20px;
+  }
+  
+  .hero-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .hero-content h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: white;
+  }
+
+  .hero-content h2 {
+    margin: 0;
+    font-size: 2rem;
+    color: blueviolet;
+    margin-bottom: 4px;
+  }
+  
+  .hero-content p {
+    margin: 10px 0;
+    font-size: 1.2rem;
+    color: white;
+  }
+  
+  .hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .hero-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .btn-about{
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-right: 8px;
+    border: 2px solid white;
+  }
+
+  .btn-proj{
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid blueviolet;
+    margin-left: 8px;
+  }
+
+  .btn-about:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid blueviolet;
+  }
+
+  .btn-proj:hover{
+    padding: 10px 20px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid white;
+    margin-left: 8px;
+  }
+
+
+  @media (max-width: 768px) {
+    .hero {
+      flex-direction: column;
+    }
+  
+    .hero-image {
+      margin-top: 20px;
+    }
+  }
+  

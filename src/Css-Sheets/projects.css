@@ -1,0 +1,63 @@
+.projects {
+    text-align: center;
+    padding: 40px;
+    background-color: #222121;
+    margin-top: 2px;
+}
+
+.projects-heading {
+    font-size: 2rem;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.projects-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Four cards per row by default */
+    gap: 20px;
+    justify-items: center; /* Center items horizontally */
+}
+
+.project {
+    border-radius: 8px;
+    border: 2px solid blueviolet;
+    padding: 20px;
+    width: 100%; /* Full width for the grid item */
+    max-width: 240px; /* Limit the width */
+    color: white;
+}
+
+.project-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.project-description {
+    font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+    .projects-heading {
+        font-size: 5vw;
+        color: white;
+        padding-bottom: 30px;
+    }
+
+    .project-title {
+        font-size: 3vw;
+        margin-bottom: 10px;
+    }
+
+    .project-description {
+        font-size: 2vw;
+    }
+
+    .projects-list {
+        grid-template-columns: repeat(2, 1fr); /* Two cards per row on small screens */
+    }
+
+    .project {
+        width: 80%;
+        max-width: 500px; /* Allow larger width on smaller screens */
+    }
+}
