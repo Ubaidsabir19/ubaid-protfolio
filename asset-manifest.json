@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/ubaid-protfolio/static/css/main.e48aaa6e.css",
+    "main.js": "/ubaid-protfolio/static/js/main.26963a19.js",
+    "static/js/453.ac79db8d.chunk.js": "/ubaid-protfolio/static/js/453.ac79db8d.chunk.js",
+    "static/media/coding.jpg": "/ubaid-protfolio/static/media/coding.a796d463d504ee63ffb8.jpg",
+    "static/media/contact.jpg": "/ubaid-protfolio/static/media/contact.40d0524dbac0b07cb093.jpg",
+    "static/media/syscon.png": "/ubaid-protfolio/static/media/syscon.3e7fbc0e680664da6ea1.png",
+    "static/media/logo.svg": "/ubaid-protfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/ubaid-protfolio/index.html",
+    "main.e48aaa6e.css.map": "/ubaid-protfolio/static/css/main.e48aaa6e.css.map",
+    "main.26963a19.js.map": "/ubaid-protfolio/static/js/main.26963a19.js.map",
+    "453.ac79db8d.chunk.js.map": "/ubaid-protfolio/static/js/453.ac79db8d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e48aaa6e.css",
+    "static/js/main.26963a19.js"
+  ]
+}
