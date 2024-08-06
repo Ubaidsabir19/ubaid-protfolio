@@ -1,13 +1,13 @@
 import React from 'react';
 import '../Css-Sheets/footer.css'; 
-import logo from '../logo.svg'; 
+import UbaidImg from '../Assets/Images/ubaid.png'; 
 
 function Footer() {
   return (
     <footer className="footer">
       <div className="footer-top">
         <div className="footer-logo">
-          <img src={logo} alt='Company Logo'/>
+          <img src={UbaidImg} alt='Company Logo'/>
         </div>
         <div className="footer-social">
           <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>
@@ -25,6 +25,8 @@ function Footer() {
             <li><a href="/contact">Contact</a></li>
           </ul>
         </div>
+       
+
         <div className="footer-info">
           <h2>My Info</h2>
           <p>Johar Town, Phase 2 Lahore, Pakistan</p>

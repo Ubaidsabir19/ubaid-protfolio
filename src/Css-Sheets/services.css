@@ -1,8 +1,10 @@
 .services {
     text-align: center;
     padding: 40px;
-    background-color: #222121;
+    /* background-color: #222121; */
+    background: linear-gradient(to top, #000, #222121); 
     margin-top: 2px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .services h1 {

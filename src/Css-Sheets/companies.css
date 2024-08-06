@@ -1,11 +1,13 @@
 .companies {
     display: flex;
     flex-direction: column; /* Stack heading and company list vertically */
-    background-color: #222121;
+    /* background-color: #222121; */
     align-items: center;
     padding: 20px;
     margin-top: 2px;
     text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    background: linear-gradient(to top, #000, #222121); 
 }
 
 .h-company {

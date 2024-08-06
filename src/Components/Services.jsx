@@ -14,10 +14,6 @@ function  Services (){
           <p>Our team builds responsive and modern websites to help your business grow.</p>
         </div>
         <div className="s-card">
-          <h2>Consulting</h2>
-          <p>We offer expert consulting services to optimize your technology solutions.</p>
-        </div>
-        <div className="s-card">
           <h2>Graphic Design</h2>
           <p>We specialize in creating innovative designs for Bussiness & Brands.</p>
         </div>

@@ -1,7 +1,9 @@
 .footer {
-    background-color: #222121;
+    /* background-color: #222121; */
+    background: linear-gradient(to top, #000, #222121); 
     color: white;
     padding: 20px;
+    font-family: 'Ubuntu', sans-serif;
   }
   
   .footer-top {
@@ -14,8 +16,10 @@
   }
   
   .footer-logo img {
-    height: 60px;
-    width: 60px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+
   }
   
   .footer-social a {
@@ -33,6 +37,8 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding: 20px;
+
   }
   
   .footer-links, .footer-info {

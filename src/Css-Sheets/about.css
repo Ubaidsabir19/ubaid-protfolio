@@ -3,7 +3,9 @@
     justify-content: center;
     padding: 40px;
     margin-top: 2px;
-    background-color: #222121;
+    /* background-color: #222121; */
+    background: linear-gradient(to top, #000, #222121); 
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .about-content {

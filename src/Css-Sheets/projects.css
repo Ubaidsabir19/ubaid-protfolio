@@ -3,6 +3,8 @@
     padding: 40px;
     background-color: #222121;
     margin-top: 2px;
+    font-family: 'Ubuntu', sans-serif;
+    background: linear-gradient(to top, #000, #222121); 
 }
 
 .projects-heading {
